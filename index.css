@@ -1,0 +1,169 @@
+
+body{
+    background-color: #FAFAFA;
+    margin: auto;
+    max-width: 1240px;
+}
+/*
+
+img{
+    max-width: 500px;
+}*/
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.menu h1{
+font-style: italic;
+}
+
+.menu li{
+display:inline-block;
+font-size: 20px;
+padding: 10px 20px;
+
+}
+
+.menu li a{
+    color: blue;
+    text-decoration: none;
+    
+}
+#top{
+    border-bottom: solid 1px black;
+}
+
+button{
+    border-radius: 5px;
+    background-color: blue;
+    color: antiquewhite;
+    font-size: 24px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+#banner{
+    margin: 50px 0px;
+}
+
+
+#banner h3{
+    font-size: 50px;
+    color:#0F298B;
+}
+
+#banner p{
+    font-size: 25px;
+}
+
+#house-search{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#house-search li{
+    display:inline-block;
+    padding: 20px 20px;
+    color:#0F298B;
+    font-size: 18px;
+    font-weight:500;
+    
+}
+
+.subtitle{
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.product{
+    background-color: white;
+    margin: 20px 20px;
+    max-width: 380px;
+    padding: 20px 20px;
+    text-align: center;
+    
+    
+}
+
+.product img{
+    height: 80px;
+    padding: 0 0 20px 0;
+    margin-top: 50px;
+
+}
+
+.Pro h1{
+    color: blue;
+}
+
+.product h3{
+    color: #0F298B;
+}
+
+.property{
+    background-color: white;
+    border-radius: 0 10px;
+}
+
+.place{
+     margin: 10px 0;
+}
+
+.price{
+    text-align: left;
+}
+
+#properties{
+    margin-top: 200px;
+    
+}
+
+#banner-2{
+    margin-top: 200px;
+}
+
+
+ #search button{
+    margin-top: 20px;
+ }
+#footer-links li{
+    list-style: none;
+    color:white;
+    margin-bottom: 5px;
+
+}
+footer{
+    background-color: blue;
+    padding: 50px 100px 150px 100px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#products L{
+    width: 100%;
+}
+#producta{
+    float: left;
+    width: 100px;
+}
+#productc{
+    float: right;
+    width: 100px;
+}
+#productb{
+    width: 100px;
+    margin: 0 auto;
+}
